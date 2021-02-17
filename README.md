@@ -16,6 +16,12 @@ Arguments:
 * display: The host display environmental variable
 * ptbin: The Packet Tracer binary file name
 
+Enabling x11 forward to container user:
+
+```
+xhost local:pt
+```
+
 Running the image:
 
 ```
