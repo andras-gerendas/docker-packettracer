@@ -2,7 +2,7 @@
 
 Running Packet Tracer in Docker requires a few configuration tricks, which are added in this Dockerfile.
 
-Note that you need to supply your own Packet Tracer .deb in order to use this Dockerfile to avoid any licensing issues.
+> Note that you need to supply your own Packet Tracer .deb in order to use this Dockerfile to avoid any licensing issues.
 
 ## Usage
 
