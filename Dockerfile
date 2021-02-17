@@ -18,7 +18,7 @@ COPY $ptbin .
 
 # Accepting the EULA and installing Packet Tracer
 RUN echo packettracer PacketTracer_800_amd64/accept-eula select true | debconf-set-selections
-RUN apt install -y /$ptbin
+RUN apt install -y --no-install-recommends /$ptbin
 
 RUN useradd pt && mkhomedir_helper pt
 USER pt

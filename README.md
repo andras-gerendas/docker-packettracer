@@ -21,3 +21,5 @@ Running the image:
 ```
 docker run --net=host packettracer
 ```
+
+Tested with Packet Tracer 8 (build212).
