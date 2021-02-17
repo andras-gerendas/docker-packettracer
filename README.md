@@ -12,6 +12,10 @@ Building the image (this example uses the file name packettracer.deb):
 docker build --build-arg display=$DISPLAY --build-arg ptbin=packettracer.deb -t packettracer .
 ```
 
+Arguments:
+* display: The host display environmental variable
+* ptbin: The Packet Tracer binary file name
+
 Running the image:
 
 ```
