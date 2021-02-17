@@ -7,9 +7,6 @@ ARG ptbin
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-VOLUME $HOME/.Xauthority:/home/pt/.Xauthority:rw
-VOLUME /tmp/.X11-unix:/tmp/.X11-unix
-
 # The package setup of ca-certificates fails if installed as a dependency
 # Qt needs a platform plugin in order to start
 RUN apt update && apt install -y ca-certificates qtwayland5
